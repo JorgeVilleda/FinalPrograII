@@ -4,10 +4,7 @@
  */
 package hotelpfp2;
 
-/**
- *
- * @author Jorge
- */
+
 public class Habitaciones {
     
 }

@@ -4,10 +4,34 @@
  */
 package hotelpfp2;
 
-/**
- *
- * @author Jorge
- */
 public class Clientes {
+    private String nombre; 
+    private String apellido; 
+    private String nit; 
+    private int celular; 
     
+    public Clientes(String nombre, String apellido, String nit, int celular){ 
+        this.nombre = nombre; 
+        this.apellido = apellido; 
+        this.nit = nit; 
+        this.celular  = celular; 
+    }
+    
+    public String getNombre(){ 
+        return nombre; 
+    }
+    public String getApellido(){ 
+        return apellido; 
+    }
+    public String getnit(){ 
+        return nit; 
+    }
+    public int getCelular(){ 
+        return celular;
+    }
+
+    public String getClientes() {
+        return null;
+         
+    }
 }
